@@ -3,7 +3,7 @@ body {
     padding: 0;
     top: 50px;
     height: 200vh;
-    background-color: wheat;
+    background-color:white;
     position: relative;
     color:darkslategrey;
 }
@@ -12,26 +12,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     position: fixed;
+    border-bottom: 3px;
     
-    background-color: darkslategrey;
+    background-color: darkslategray;
     width: 100%;
-    height: 15%;
+    height: 10%;
     top: 0;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* border: 3px solid darkslategrey; */
+
 }
 
 .heading-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Brush Script MT', cursive;
     font-size: 36px;
     color: white;
     text-align: center;
 }
 
-.heading{
-    font-family: 'Courier New', Courier, monospace;
+.subheading {
+    margin-top: 10%;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Brush Script MT', cursive;
+    border-color: wheat;
+    padding-bottom: 5px;
+    border-bottom: solid 1px;
 }
 
 #bannerImage {
@@ -53,10 +60,11 @@ a {
 div.container {
     text-align: center;
     width: fit-content;
-    background-color: aliceblue;
+    background-color: snow;
     margin: 10px;
     padding: 10px;
    
+    border: solid 2px;
     border-radius: 16px;
 
     transition: box-shadow 0.3s ease-in-out;
